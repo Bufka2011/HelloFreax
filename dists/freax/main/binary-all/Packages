@@ -1,0 +1,12 @@
+Package: hellofreax
+Version: 1.0
+Architecture: all
+Maintainer: Bufka2011
+Section: utils
+Priority: optional
+Description: prints Hello, Freax!
+ A tiny demo package for the Freax apt repository.
+Filename: pool/main/hellofreax_1.0_all.fpkg
+Size: 697
+SHA256: bafdabdf814d43235ac71d66f8fd83c66e155a7acde12fe19c8d53b7bab97acd
+

@@ -1,0 +1,32 @@
+FREAXPKG 1
+@entry control 192 control
+Package: hellofreax
+Version: 1.0
+Architecture: all
+Maintainer: Bufka2011
+Section: utils
+Priority: optional
+Description: prints Hello, Freax!
+ A tiny demo package for the Freax apt repository.
+@entry d 0 /bin
+@entry f 87 /bin/hellofreax.lua
+-- hellofreax: demo program shipped by the hellofreax package.
+
+print("Hello, Freax!")
+@entry d 0 /usr
+@entry d 0 /usr/man
+@entry f 258 /usr/man/hellofreax
+NAME
+  hellofreax - print a friendly greeting
+
+SYNOPSIS
+  hellofreax
+
+DESCRIPTION
+  Prints "Hello, Freax!" to the terminal. Demo program shipped by the
+  hellofreax package to exercise apt install, upgrade, and remove.
+
+EXAMPLES
+  hellofreax
+    Says hello.
+@end

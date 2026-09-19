@@ -1,0 +1,8 @@
+Package: hellofreax
+Version: 1.0
+Architecture: all
+Maintainer: Bufka2011
+Section: utils
+Priority: optional
+Description: prints Hello, Freax!
+ A tiny demo package for the Freax apt repository.

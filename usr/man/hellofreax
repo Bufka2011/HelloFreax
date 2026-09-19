@@ -1,0 +1,13 @@
+NAME
+  hellofreax - print a friendly greeting
+
+SYNOPSIS
+  hellofreax
+
+DESCRIPTION
+  Prints "Hello, Freax!" to the terminal. Demo program shipped by the
+  hellofreax package to exercise apt install, upgrade, and remove.
+
+EXAMPLES
+  hellofreax
+    Says hello.
